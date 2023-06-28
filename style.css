@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+background: rgb(141,208,240);
+background: linear-gradient(180deg, rgba(141,208,240,0.9094012605042017) 0%, rgba(248,248,248,1) 23%, rgba(240,240,240,1) 96%);
+}
+ 
+.headerdata{
+    margin: 0px;
+    padding: 14vh 29.25vw 14vh 29.25vw;
+    width: 40vw;
+    text-align: center;
+    color: aliceblue;
+}
+.headerdata p{
+    font-size: 3vw;
+    text-shadow: 2px 3px 2px black;
+}
+.headerdata h1{
+    margin: 3vh 0px;
+    font-size: 5vw;
+    text-shadow: 5px 5px 2px black;
+    transition: all 1s ease-in-out;
+}
+.headerdata img{
+    width: 15vw;
+    border-radius: 65px;
+    transition: 1s all linear;
+    /* box-shadow: 10px 10px white; */
+}
+.headerdata img:hover{
+    transform: scale(1.1);
+}
+.headerdata h1:hover{
+    transform: scale(1.1);
+}
+
+.bt{
+    background-color: red;
+  background-image: linear-gradient(to bottom right, red, yellow);
+    color: aliceblue;
+    margin: 2vh 41vw;
+    width: 16.75vw;
+    height: 10vh;
+    border-radius: 7vw;
+    border: 0.1vw solid yellow;
+    font-weight:bold;
+    font-size: 2.75vh;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+.bt a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.bt:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 4px rgb(169, 169 , 169);
+}
+.bt:hover a{
+    transform: scale(1.05);
+}
+
+.works{
+    margin: 2vh 9.35vw;
+    text-align: center;
+    font-size: 3vw;
+}
+.linkspace{
+    height: 50vh;
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    background-color:white;
+}
+.linkspace iframe{
+    height: 40vh;
+    width: 30vw;
+}
+
+.collabs{
+    margin: 2vh 5vw;
+    padding: 2vh 0vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.clients{
+    margin: 5vh 5vw;
+    width: 80vw;
+    height: fit-content;
+    background-color:white;
+    border-radius: 2vw;
+    transition: all 0.5s linear;
+    color: rgb(120, 120, 120);
+}
+.clients:hover{
+    transform: scale(1.025);
+    box-shadow: 5px 5px rgb(192, 192 , 192);
+}
+.clients h3{
+    margin: 2vh 0vw;
+}
+.data h3{
+    color: black;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+    width: 50vw;
+    font-size: 2vw;
+}
+.watchbt{
+    margin: 2vh 15vw;
+}
+.data{
+    padding: 1vh 2vw;
+    width: 60vw;
+}
+.links{
+    margin: auto 4vw;
+}
+
+
+.others{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 5vw;
+    font-size: 1.5vw;
+}
+.others h3{
+    font-size: 2vw;
+    padding-left: 10px;
+}
+.othersData{
+    width: 30vw;
+    height: 60vh;
+    line-height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
+.othersData p{
+    padding-left: 10px;
+}
+.othersData img{
+    box-shadow: 4px 4px black;
+}
+.othersData:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px black;
+}
+.bor{
+    margin: 1vh 4vw;
+    /* border-left: 0.01vw solid yellow; */
+    border: 0.1vw solid grey;
+
+}
+
+.self{
+    border: 0.1vw solid grey;
+    margin: 5vh 15vw;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vw;
+    border-radius: 15px;
+    /* background-color: rgb(21, 21, 21); */
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 71%, rgba(36,36,36,1) 88%, rgba(51,51,51,0.8645833333333334) 100%);
+    color: white;
+    transition: all 0.5s linear;
+}
+.self img{
+    height: 40vh;
+    transition: all 0.5s linear;
+    border-radius: 15px;
+}
+.myinfo{
+    width: 35vw;
+    font-size: 1.5vw;
+}
+.myinfo button{
+    margin: 5vh 0vw;
+}
+.self img:hover{
+    transform: scale(1.05);
+}
+.self:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgb(192, 192, 192);
+}
+
+.foot{
+    margin: 10vh 30vw;
+    text-align: center;
+    width: 40vw;
+    font-size: 1.75vw;
+    line-height: 6vh;
+}
+.foot h3{
+    font-size: 3vw;
+}
+.foot button{
+    margin: 0;
+    padding: 0;
+}
+
+footer .contact{
+    color: aliceblue;
+    text-align: center;
+    margin: 5vh 0vw 0vh 0vw;
+    height: fit-content;
+    font-size: 1.5vw;
+}
+.contact ul{
+    padding: 1.5vh 0vw;
+}
+.contact ul li{
+    padding: 0.75vh 0vw;
+}
