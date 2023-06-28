@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: rgb(41, 10, 10);
+    color: aliceblue;
+}
+
+.headerdata{
+    margin: 10vh 30vw 5vh 30vw;
+    width: 40vw;
+    text-align: center;
+}
+.headerdata p{
+    font-size: 3vw;
+}
+.headerdata h1{
+    margin: 3vh 0px;
+    font-size: 5vw;
+}
+.headerdata img{
+    border-radius: 5px;
+    transition: 1s all linear;
+}
+.headerdata img:hover{
+    transform: scale(1.2);
+}
+
+.bt{
+    margin: 2vh 41vw;
+    width: 16.75vw;
+    height: 10vh;
+    border-radius: 7vw;
+    border: 0.1vw solid yellow;
+    font-weight:bold;
+    font-size: 2.75vh;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+.bt a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.bt:hover{
+    background-color: yellow;
+    color: brown;
+    transform: scale(1.1);
+}
+.bt:hover a{
+    background-color: yellow;
+    color: brown;
+    transform: scale(1.1);
+}
+
+.works{
+    margin: 2vh 5vw;
+    text-align: center;
+    font-size: 3vw;
+    /* border: 1vw solid aqua; */
+    /* border: 0.25vw solid yellow; */
+    border: 0.25vw solid grey;
+
+
+}
+.linkspace{
+    height: 50vh;
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.linkspace iframe{
+    height: 40vh;
+    width: 25vw;
+}
+
+.collabs{
+    margin: 2vh 5vw;
+    padding: 2vh 0vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.clients{
+    margin: 5vh 5vw;
+    width: 80vw;
+    height: fit-content;
+    /* border: 0.2vw solid yellow; */
+    border: 0.25vw solid grey;
+
+}
+.clients h3{
+    margin: 2vh 0vw;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+    width: 50vw;
+    font-size: 2vw;
+}
+.watchbt{
+    margin: 2vh 15vw;
+}
+.data{
+    padding: 1vh 2vw;
+    width: 60vw;
+}
+.links{
+    margin: auto 4vw;
+}
+
+
+.others{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 5vw;
+    font-size: 1.5vw;
+}
+.others h3{
+    font-size: 2vw;
+}
+.othersData{
+    width: 30vw;
+    height: 50vh;
+    line-height: 5vh;
+}
+.bor{
+    margin: 1vh 4vw;
+    /* border-left: 0.01vw solid yellow; */
+    border: 0.1vw solid grey;
+
+}
+
+.self{
+    border: 0.1vw solid grey;
+    margin: 5vh 15vw;
+    padding: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vw;
+}
+.self img{
+    height: 40vh;
+    transition: all 1s linear;
+}
+.myinfo{
+    width: 35vw;
+    font-size: 1.5vw;
+}
+.myinfo button{
+    margin: 5vh 0vw;
+}
+.self img:hover{
+    transform: scale(1.2);
+}
+
+.foot{
+    margin: 10vh 30vw;
+    text-align: center;
+    width: 40vw;
+    font-size: 2vw;
+    line-height: 7vh;
+}
+
+footer .contact{
+    text-align: center;
+    margin: 5vh 0vw;
+    height: fit-content;
+    font-size: 1.5vw;
+}
+.contact ul{
+    padding: 1.5vh 0vw;
+}
+.contact ul li{
+    padding: 0.75vh 0vw;
+}
