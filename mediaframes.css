@@ -1,0 +1,32 @@
+@media screen and (max-width : 800px){
+    .info{
+        /* margin: auto 10vw; */
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .self{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .others{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .othersData{
+        min-width: 80vw ;
+        height: fit-content;
+    }
+    .othersData img{
+        width: 60vw;
+    }
+    .headerdata{
+        min-width: 91vw;
+    }
+    .headerdata img{
+        min-width: 50vw;
+    }
+}
