@@ -135,7 +135,7 @@ h3{
     background-color:white;
     border-radius: 2vw;
     transition: all 0.5s linear;
-    color: rgb(120, 120, 120);
+    color: rgb(96,96,96);
 }
 .clients:hover{
     transform: scale(1.025);
@@ -145,7 +145,7 @@ h3{
     margin: 2vh 0vw;
 }
 .data h3{
-    color: black;
+    color: rgb(24,24,24);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .info{
@@ -182,6 +182,7 @@ h3{
     padding-left: 10px;
     font-family: unset;
     text-shadow: none;
+    color: rgb(24,24,24);
 }
 .othersData{
     width: 30vw;
@@ -195,6 +196,7 @@ h3{
 }
 .othersData p{
     padding-left: 10px;
+    color: rgb(96,96,96);
 }
 .othersData img{
     padding: 2vw;
