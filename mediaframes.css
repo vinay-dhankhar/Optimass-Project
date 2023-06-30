@@ -1,4 +1,7 @@
 @media screen and (max-width : 800px){
+    *{
+        width: 100%;
+    }
     .info{
         /* margin: auto 10vw; */
         width: 80vw;
@@ -25,8 +28,22 @@
     }
     .headerdata{
         width: 100%;
+        margin: 0px 15vw;
     }
     .headerdata img{
         min-width: 50vw;
+    }
+    .introVid{
+        width: 100vw;
+        margin: 5vh 40vw;
+        height: 30vh;
+    }
+    .bt{
+        width: 100%;
+    }
+    .heads{
+        font-size: 50px;
+        margin-left: 40%;
+        width: 100%;
     }
 }
