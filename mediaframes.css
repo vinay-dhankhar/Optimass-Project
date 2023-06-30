@@ -63,10 +63,22 @@
         height: fit-content;
     }
     .othersData{
-        min-width: 80vw ;
-        height: fit-content;
+        min-width: 100%; ;
+        min-height: fit-content;
+        margin: 2vh 40vw;
+        padding: 20px;
+    }
+    .othersData h3{
+        font-size: 40px;
     }
     .othersData img{
-        width: 60vw;
+        width: 60%;
+    }
+    .othersData p{
+        font-size: 35px;
+    }
+    .bor{
+        width: 140vw;
+        margin: 5vh 20vw;
     }
 }
