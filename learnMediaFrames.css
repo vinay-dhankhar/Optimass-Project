@@ -1,0 +1,18 @@
+*{
+    width: 100%;
+}
+h3{
+    width: 100%;
+    margin: 0vh 35vw;
+}
+.about{
+    width: 100%;
+    margin: 0vh 35vw;
+}
+.contact{
+    margin: 0vh 35vw;
+    background-color: white;
+    color: rgb(24, 24, 24);
+    border-radius: 15px;
+    font-size: 26px;
+}
