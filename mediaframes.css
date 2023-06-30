@@ -24,7 +24,7 @@
         width: 60vw;
     }
     .headerdata{
-        min-width: 91vw;
+        width: 100%;
     }
     .headerdata img{
         min-width: 50vw;

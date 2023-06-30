@@ -43,12 +43,12 @@ background: linear-gradient(180deg, rgba(141,208,240,0.9094012605042017) 0%, rgb
   background-image: linear-gradient(to bottom right, red, yellow);
     color: aliceblue;
     margin: 2vh 41vw;
-    width: 16.75vw;
+    width: 200px;
     height: 10vh;
     border-radius: 7vw;
     border: 0.1vw solid yellow;
     font-weight:bold;
-    font-size: 2.75vh;
+    font-size: 26px;
     transition: all 0.5s ease-in-out;
     z-index: 10;
     box-shadow: 2px 2px 2px rgb(169, 169 , 169);
