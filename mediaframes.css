@@ -48,6 +48,9 @@
         width: 80%;
         margin: 2vh 2vw;
     }
+    .links{
+        width: 100vw;
+    }
 
     .self{
         display: flex;
