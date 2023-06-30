@@ -22,7 +22,7 @@ background: linear-gradient(180deg, rgba(141,208,240,0.9094012605042017) 0%, rgb
 .headerdata h1{
     margin: 3vh 0px;
     font-size:52px;
-    text-shadow: 5px 5px 4px black;
+    text-shadow: 2px 2px 2px black;
     transition: all 1s ease-in-out;
 }
 .headerdata img{
@@ -102,7 +102,7 @@ background: linear-gradient(180deg, rgba(141,208,240,0.9094012605042017) 0%, rgb
 h3{
     font-size: 7vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 4px 4px 4px grey;
+    /* text-shadow: 4px 4px 4px grey; */
 }
 .about{
     margin: 2vh 7vw 5vh 7vw;
@@ -135,7 +135,7 @@ h3{
     background-color:white;
     border-radius: 2vw;
     transition: all 0.5s linear;
-    color: rgb(96,96,96);
+    color: rgb(78, 77, 77);
 }
 .clients:hover{
     transform: scale(1.025);
@@ -197,13 +197,12 @@ h3{
 }
 .othersData p{
     padding-left: 10px;
-    color: rgb(96,96,96);
+    color: rgb(78, 77, 77);
 }
 .othersData img{
     padding: 2vw;
     box-shadow: 4px 4px 5px black;
     width: 15vw;
-    width: auto;
 }
 .othersData:hover{
     transform: scale(1.05);

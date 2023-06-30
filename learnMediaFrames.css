@@ -17,4 +17,7 @@ h3{
     border-radius: 15px;
     font-size: 26px;
 }
+body{
+    zoom: 100%;
+}
 }
