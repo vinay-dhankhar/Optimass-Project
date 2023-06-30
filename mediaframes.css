@@ -52,11 +52,6 @@
         width: 100vw;
     }
 
-    .self{
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-    }
     .others{
         display: flex;
         flex-direction: column;
@@ -65,7 +60,7 @@
     .othersData{
         min-width: 100%; ;
         min-height: fit-content;
-        margin: 2vh 40vw;
+        margin: 2vh 30vw;
         padding: 20px;
     }
     .othersData h3{
@@ -80,5 +75,34 @@
     .bor{
         width: 140vw;
         margin: 5vh 20vw;
+    }
+    .self{
+        display: flex;
+        flex-direction: column;
+        margin: 0vh 35vw;
+    }
+    .self img{
+        max-width: 90vw;
+    }
+    .myinfo{
+        width: 90%;
+        font-size: 40px;
+    }
+    .foot{
+        width: 100%;
+        margin: 10vh 35vw;
+    }
+    .foot p{
+        font-size: 35px;
+    }
+    .foot button{
+        margin: 15px;
+    }
+    .contact{
+        margin: 0vh 35vw;
+        background-color: white;
+        color: rgb(24, 24, 24);
+        border-radius: 15px;
+        font-size: 26px;
     }
 }

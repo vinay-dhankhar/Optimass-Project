@@ -253,7 +253,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 71%, rgba(36,36,36,1) 88%, rgb
     width: 40vw;
     font-size: 4vh;
     height : fit-content;
-    /* line-height: 6vh; */
 }
 .foot h3{
     font-size: 8vh;
@@ -263,13 +262,14 @@ background: radial-gradient(circle, rgba(0,0,0,1) 71%, rgba(36,36,36,1) 88%, rgb
     padding: 0;
 }
 
-footer .contact{
+.contact{
     color: aliceblue;
     text-align: center;
     margin: 5vh 0vw 0vh 0vw;
     height: fit-content;
     font-size: 3vh;
     padding: 1vh 1vw;
+    background-color: rgb(24,24,24);
 }
 .contact ul{
     padding: 1.5vh 0vw;
